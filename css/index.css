@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #ffffff;
+}
+
+header{
+  background-color: #fa471f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.judul{
+  font-family: 'Mulish', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.judul:hover{
+  color: #af361b;
+}
+
+.list{
+  display: flex;
+}
+
+.list li{
+  display: flex;
+}
+
+.list li a{
+  font-family: 'Mulish', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 30px;
+  transition: 0.5s;
+}
+
+.list li a:hover{
+  color: #af361b;
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/bg.jpeg);
+  background-size: cover;
+  height: 91vh;
+}
+
+.welcomejudul{
+  color: #ffffff;
+  font-family: 'Mulish', sans-serif;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.welcomejudul:hover{
+  transform: scale(1.10);
+  cursor: pointer;
+}
+
+.kotak1{
+  padding: 30px;
+}
+
+.kotak1judul{
+  color: #fa471f;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.kotak1tulisan{
+  color: #000000;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.kotak2{
+  padding: 30px;
+}
+
+.kotak2judul1{
+  color: #fa471f;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.kotak2gambar1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kotak2gambar1 img{
+  margin-top: 10px;
+  border-radius: 20px;
+  height: 510px;
+  width: 310px;
+  transition: 0.5s;
+}
+
+.kotak2gambar1 img:hover{
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+#filmanak{
+  margin-top: 50px;
+}
+
+.kotak2judul2{
+  color: #fa471f;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.kotak2gambar2{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kotak2gambar2 img{
+  border-radius: 20px;
+  height: 510px;
+  width: 310px;
+  transition: 0.5s;
+}
+
+.kotak2gambar2 img:hover{
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+.kotak3{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kotak3 img{
+  width: 675px;
+}
+
+.kotak3dalam1{
+  margin-left: 30px;
+}
+
+.kotak3judul{
+  color: #000000;
+  font-family: 'Mulish', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.kotak3tulisan{
+  color: #000000;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.kotak3dalam2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.kotak3mail{
+  color: #000000;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #fa471f;
+  width: 95%;
+  margin-top: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.kotak3link{
+  display: inline-flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  background-color: #fa471f;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 20px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.kotak3link:hover{
+  background-color: #af361b;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fa471f;
+  padding: 30px;
+}
+
+.penutup{
+  color: #ffffff;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
